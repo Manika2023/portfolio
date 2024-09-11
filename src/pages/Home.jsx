@@ -4,6 +4,7 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Skills from './Skills';
+
 const Home = () => {
   const [bio, setBio] = useState('');
   const projectsRef = useRef(null); // Reference for the Projects section
