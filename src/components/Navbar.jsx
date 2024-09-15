@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-900 text-white fixed w-full z-10 top-0 shadow-md">
       <div className="container mx-auto flex justify-between items-center p-4">
-        <h1 className="text-2xl font-bold">My Portfolio</h1>
+        <h1 className="text-2xl font-bold text-orange-500">My Portfolio</h1>
         {/* Mobile Menu Button */}
         <button
           className="text-white md:hidden"

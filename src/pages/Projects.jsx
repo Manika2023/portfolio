@@ -30,7 +30,7 @@ const Projects = () => {
     {
       title: "Todo App with Context API and Local Storage",
       description: "A Todo application built using React's Context API for state management and local storage for persistent data. Allows users to add, complete, and delete tasks.",
-      link: "https://github.com/Manika2023/react_project/tree/main/10todoContextLocal",
+      link: "https://todo-local-context-react.vercel.app/",
     },
   ];
 
@@ -43,7 +43,7 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <div key={index} className="bg-gray-800 p-4 rounded">
-              <h3 className="font-bold text-xl mb-2 text-white text-purple-500">{project.title}</h3>
+              <h3 className="font-bold text-xl mb-2  text-purple-500">{project.title}</h3>
               <p className="mb-4">{project.description}</p>
               <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-500">
                 View Project
